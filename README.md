@@ -1,3 +1,26 @@
+# Movie App
+AppNavigation.js: A navigation component managing screens within the application using React Navigation. It includes screens for the home (HomeScreen), login (LoginScreen), registration (RegisterScreen), movie details (MovieScreen), person details (PersonScreen), search (SearchScreen), and a screen displaying all movies (AllMovies).
+
+HomeScreen.js: The main screen that displays trending, upcoming, and top-rated movies using data fetched from the API. It also features language switching and search functionalities.
+
+LoginScreen.js: Represents the login screen, containing a simple "LoginScreen" text.
+
+MovieScreen.js: Displays details about a movie, including information about the film and people associated with it.
+
+PersonScreen.js: Shows details about a person (actor or director). Includes information about the person, filmography, and biography.
+
+SearchScreen.js: A screen used for searching movies. It includes search results and details.
+
+useAppSettings.js: Provides a context managing application settings using Zustand. It includes settings like language selection and loading status. Supports multiple languages.
+
+useMovie.js: Manages movie and person data using Zustand. Provides data related to trending, upcoming, top-rated movies, and more. Supports data management in multiple languages.
+Preview: 
+
+
+https://github.com/nursedaturkcan/MovieApp/assets/129687664/5e08e8a4-74bf-4586-99df-dd8ab47dc7c3
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
